@@ -1,0 +1,5 @@
+tiktoken>=0.7
+requests
+# Optional, for Qwen2.5 / DeepSeek-V3 comparisons in experiment 03.
+# On Python 3.8 use: pip3 install --only-binary :all: "tokenizers<0.21"
+tokenizers

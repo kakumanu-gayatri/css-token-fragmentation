@@ -1,0 +1,5206 @@
+{
+  "tokenizer": "cl100k_base",
+  "verified_against_test_vector": true,
+  "original_sample_breakdown": {
+    "00": {
+      "color": "#000000",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "000",
+        "000"
+      ]
+    },
+    "11": {
+      "color": "#111111",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "111",
+        "111"
+      ]
+    },
+    "22": {
+      "color": "#222222",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "222",
+        "222"
+      ]
+    },
+    "33": {
+      "color": "#333333",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "333",
+        "333"
+      ]
+    },
+    "44": {
+      "color": "#444444",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "444",
+        "444"
+      ]
+    },
+    "55": {
+      "color": "#555555",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "555",
+        "555"
+      ]
+    },
+    "66": {
+      "color": "#666666",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "666",
+        "666"
+      ]
+    },
+    "77": {
+      "color": "#777777",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "777",
+        "777"
+      ]
+    },
+    "88": {
+      "color": "#888888",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "888",
+        "888"
+      ]
+    },
+    "99": {
+      "color": "#999999",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "999",
+        "999"
+      ]
+    },
+    "AA": {
+      "color": "#AAAAAA",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "AAAA",
+        "AA"
+      ]
+    },
+    "BB": {
+      "color": "#BBBBBB",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "BBBB",
+        "BB"
+      ]
+    },
+    "CC": {
+      "color": "#CCCCCC",
+      "token_count": 2,
+      "pieces": [
+        "#",
+        "CCCCCC"
+      ]
+    },
+    "DD": {
+      "color": "#DDDDDD",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "DD",
+        "DD",
+        "DD"
+      ]
+    },
+    "EE": {
+      "color": "#EEEEEE",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "EEEE",
+        "EE"
+      ]
+    },
+    "FF": {
+      "color": "#FFFFFF",
+      "token_count": 2,
+      "pieces": [
+        "#",
+        "FFFFFF"
+      ]
+    },
+    "80": {
+      "color": "#808080",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "808",
+        "080"
+      ]
+    },
+    "40": {
+      "color": "#404040",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "404",
+        "040"
+      ]
+    },
+    "C0": {
+      "color": "#C0C0C0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ]
+    },
+    "1A": {
+      "color": "#1A1A1A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "A",
+        "1",
+        "A",
+        "1",
+        "A"
+      ]
+    },
+    "3F": {
+      "color": "#3F3F3F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "F",
+        "3",
+        "F",
+        "3",
+        "F"
+      ]
+    },
+    "A9": {
+      "color": "#A9A9A9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "9",
+        "A",
+        "9",
+        "A",
+        "9"
+      ]
+    }
+  },
+  "all_256_pairs": [
+    {
+      "hex": "00",
+      "color": "#000000",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "000",
+        "000"
+      ]
+    },
+    {
+      "hex": "01",
+      "color": "#010101",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "010",
+        "101"
+      ]
+    },
+    {
+      "hex": "02",
+      "color": "#020202",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "020",
+        "202"
+      ]
+    },
+    {
+      "hex": "03",
+      "color": "#030303",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "030",
+        "303"
+      ]
+    },
+    {
+      "hex": "04",
+      "color": "#040404",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "040",
+        "404"
+      ]
+    },
+    {
+      "hex": "05",
+      "color": "#050505",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "050",
+        "505"
+      ]
+    },
+    {
+      "hex": "06",
+      "color": "#060606",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "060",
+        "606"
+      ]
+    },
+    {
+      "hex": "07",
+      "color": "#070707",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "070",
+        "707"
+      ]
+    },
+    {
+      "hex": "08",
+      "color": "#080808",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "080",
+        "808"
+      ]
+    },
+    {
+      "hex": "09",
+      "color": "#090909",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "090",
+        "909"
+      ]
+    },
+    {
+      "hex": "0A",
+      "color": "#0A0A0A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "A",
+        "0",
+        "A",
+        "0",
+        "A"
+      ]
+    },
+    {
+      "hex": "0B",
+      "color": "#0B0B0B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "B",
+        "0",
+        "B",
+        "0",
+        "B"
+      ]
+    },
+    {
+      "hex": "0C",
+      "color": "#0C0C0C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C"
+      ]
+    },
+    {
+      "hex": "0D",
+      "color": "#0D0D0D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "D",
+        "0",
+        "D",
+        "0",
+        "D"
+      ]
+    },
+    {
+      "hex": "0E",
+      "color": "#0E0E0E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "E",
+        "0",
+        "E",
+        "0",
+        "E"
+      ]
+    },
+    {
+      "hex": "0F",
+      "color": "#0F0F0F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "F",
+        "0",
+        "F",
+        "0",
+        "F"
+      ]
+    },
+    {
+      "hex": "10",
+      "color": "#101010",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "101",
+        "010"
+      ]
+    },
+    {
+      "hex": "11",
+      "color": "#111111",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "111",
+        "111"
+      ]
+    },
+    {
+      "hex": "12",
+      "color": "#121212",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "121",
+        "212"
+      ]
+    },
+    {
+      "hex": "13",
+      "color": "#131313",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "131",
+        "313"
+      ]
+    },
+    {
+      "hex": "14",
+      "color": "#141414",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "141",
+        "414"
+      ]
+    },
+    {
+      "hex": "15",
+      "color": "#151515",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "151",
+        "515"
+      ]
+    },
+    {
+      "hex": "16",
+      "color": "#161616",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "161",
+        "616"
+      ]
+    },
+    {
+      "hex": "17",
+      "color": "#171717",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "171",
+        "717"
+      ]
+    },
+    {
+      "hex": "18",
+      "color": "#181818",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "181",
+        "818"
+      ]
+    },
+    {
+      "hex": "19",
+      "color": "#191919",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "191",
+        "919"
+      ]
+    },
+    {
+      "hex": "1A",
+      "color": "#1A1A1A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "A",
+        "1",
+        "A",
+        "1",
+        "A"
+      ]
+    },
+    {
+      "hex": "1B",
+      "color": "#1B1B1B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "B",
+        "1",
+        "B",
+        "1",
+        "B"
+      ]
+    },
+    {
+      "hex": "1C",
+      "color": "#1C1C1C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "C",
+        "1",
+        "C",
+        "1",
+        "C"
+      ]
+    },
+    {
+      "hex": "1D",
+      "color": "#1D1D1D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "D",
+        "1",
+        "D",
+        "1",
+        "D"
+      ]
+    },
+    {
+      "hex": "1E",
+      "color": "#1E1E1E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "E",
+        "1",
+        "E",
+        "1",
+        "E"
+      ]
+    },
+    {
+      "hex": "1F",
+      "color": "#1F1F1F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "F",
+        "1",
+        "F",
+        "1",
+        "F"
+      ]
+    },
+    {
+      "hex": "20",
+      "color": "#202020",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "202",
+        "020"
+      ]
+    },
+    {
+      "hex": "21",
+      "color": "#212121",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "212",
+        "121"
+      ]
+    },
+    {
+      "hex": "22",
+      "color": "#222222",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "222",
+        "222"
+      ]
+    },
+    {
+      "hex": "23",
+      "color": "#232323",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "232",
+        "323"
+      ]
+    },
+    {
+      "hex": "24",
+      "color": "#242424",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "242",
+        "424"
+      ]
+    },
+    {
+      "hex": "25",
+      "color": "#252525",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "252",
+        "525"
+      ]
+    },
+    {
+      "hex": "26",
+      "color": "#262626",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "262",
+        "626"
+      ]
+    },
+    {
+      "hex": "27",
+      "color": "#272727",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "272",
+        "727"
+      ]
+    },
+    {
+      "hex": "28",
+      "color": "#282828",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "282",
+        "828"
+      ]
+    },
+    {
+      "hex": "29",
+      "color": "#292929",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "292",
+        "929"
+      ]
+    },
+    {
+      "hex": "2A",
+      "color": "#2A2A2A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "A",
+        "2",
+        "A",
+        "2",
+        "A"
+      ]
+    },
+    {
+      "hex": "2B",
+      "color": "#2B2B2B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "B",
+        "2",
+        "B",
+        "2",
+        "B"
+      ]
+    },
+    {
+      "hex": "2C",
+      "color": "#2C2C2C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "C",
+        "2",
+        "C",
+        "2",
+        "C"
+      ]
+    },
+    {
+      "hex": "2D",
+      "color": "#2D2D2D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "D",
+        "2",
+        "D",
+        "2",
+        "D"
+      ]
+    },
+    {
+      "hex": "2E",
+      "color": "#2E2E2E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "E",
+        "2",
+        "E",
+        "2",
+        "E"
+      ]
+    },
+    {
+      "hex": "2F",
+      "color": "#2F2F2F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "F",
+        "2",
+        "F",
+        "2",
+        "F"
+      ]
+    },
+    {
+      "hex": "30",
+      "color": "#303030",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "303",
+        "030"
+      ]
+    },
+    {
+      "hex": "31",
+      "color": "#313131",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "313",
+        "131"
+      ]
+    },
+    {
+      "hex": "32",
+      "color": "#323232",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "323",
+        "232"
+      ]
+    },
+    {
+      "hex": "33",
+      "color": "#333333",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "333",
+        "333"
+      ]
+    },
+    {
+      "hex": "34",
+      "color": "#343434",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "343",
+        "434"
+      ]
+    },
+    {
+      "hex": "35",
+      "color": "#353535",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "353",
+        "535"
+      ]
+    },
+    {
+      "hex": "36",
+      "color": "#363636",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "363",
+        "636"
+      ]
+    },
+    {
+      "hex": "37",
+      "color": "#373737",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "373",
+        "737"
+      ]
+    },
+    {
+      "hex": "38",
+      "color": "#383838",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "383",
+        "838"
+      ]
+    },
+    {
+      "hex": "39",
+      "color": "#393939",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "393",
+        "939"
+      ]
+    },
+    {
+      "hex": "3A",
+      "color": "#3A3A3A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "A",
+        "3",
+        "A",
+        "3",
+        "A"
+      ]
+    },
+    {
+      "hex": "3B",
+      "color": "#3B3B3B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "B",
+        "3",
+        "B",
+        "3",
+        "B"
+      ]
+    },
+    {
+      "hex": "3C",
+      "color": "#3C3C3C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "C",
+        "3",
+        "C",
+        "3",
+        "C"
+      ]
+    },
+    {
+      "hex": "3D",
+      "color": "#3D3D3D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "D",
+        "3",
+        "D",
+        "3",
+        "D"
+      ]
+    },
+    {
+      "hex": "3E",
+      "color": "#3E3E3E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "E",
+        "3",
+        "E",
+        "3",
+        "E"
+      ]
+    },
+    {
+      "hex": "3F",
+      "color": "#3F3F3F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "F",
+        "3",
+        "F",
+        "3",
+        "F"
+      ]
+    },
+    {
+      "hex": "40",
+      "color": "#404040",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "404",
+        "040"
+      ]
+    },
+    {
+      "hex": "41",
+      "color": "#414141",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "414",
+        "141"
+      ]
+    },
+    {
+      "hex": "42",
+      "color": "#424242",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "424",
+        "242"
+      ]
+    },
+    {
+      "hex": "43",
+      "color": "#434343",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "434",
+        "343"
+      ]
+    },
+    {
+      "hex": "44",
+      "color": "#444444",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "444",
+        "444"
+      ]
+    },
+    {
+      "hex": "45",
+      "color": "#454545",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "454",
+        "545"
+      ]
+    },
+    {
+      "hex": "46",
+      "color": "#464646",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "464",
+        "646"
+      ]
+    },
+    {
+      "hex": "47",
+      "color": "#474747",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "474",
+        "747"
+      ]
+    },
+    {
+      "hex": "48",
+      "color": "#484848",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "484",
+        "848"
+      ]
+    },
+    {
+      "hex": "49",
+      "color": "#494949",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "494",
+        "949"
+      ]
+    },
+    {
+      "hex": "4A",
+      "color": "#4A4A4A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "A",
+        "4",
+        "A",
+        "4",
+        "A"
+      ]
+    },
+    {
+      "hex": "4B",
+      "color": "#4B4B4B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "B",
+        "4",
+        "B",
+        "4",
+        "B"
+      ]
+    },
+    {
+      "hex": "4C",
+      "color": "#4C4C4C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "C",
+        "4",
+        "C",
+        "4",
+        "C"
+      ]
+    },
+    {
+      "hex": "4D",
+      "color": "#4D4D4D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "D",
+        "4",
+        "D",
+        "4",
+        "D"
+      ]
+    },
+    {
+      "hex": "4E",
+      "color": "#4E4E4E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "E",
+        "4",
+        "E",
+        "4",
+        "E"
+      ]
+    },
+    {
+      "hex": "4F",
+      "color": "#4F4F4F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "F",
+        "4",
+        "F",
+        "4",
+        "F"
+      ]
+    },
+    {
+      "hex": "50",
+      "color": "#505050",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "505",
+        "050"
+      ]
+    },
+    {
+      "hex": "51",
+      "color": "#515151",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "515",
+        "151"
+      ]
+    },
+    {
+      "hex": "52",
+      "color": "#525252",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "525",
+        "252"
+      ]
+    },
+    {
+      "hex": "53",
+      "color": "#535353",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "535",
+        "353"
+      ]
+    },
+    {
+      "hex": "54",
+      "color": "#545454",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "545",
+        "454"
+      ]
+    },
+    {
+      "hex": "55",
+      "color": "#555555",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "555",
+        "555"
+      ]
+    },
+    {
+      "hex": "56",
+      "color": "#565656",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "565",
+        "656"
+      ]
+    },
+    {
+      "hex": "57",
+      "color": "#575757",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "575",
+        "757"
+      ]
+    },
+    {
+      "hex": "58",
+      "color": "#585858",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "585",
+        "858"
+      ]
+    },
+    {
+      "hex": "59",
+      "color": "#595959",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "595",
+        "959"
+      ]
+    },
+    {
+      "hex": "5A",
+      "color": "#5A5A5A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "A",
+        "5",
+        "A",
+        "5",
+        "A"
+      ]
+    },
+    {
+      "hex": "5B",
+      "color": "#5B5B5B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "B",
+        "5",
+        "B",
+        "5",
+        "B"
+      ]
+    },
+    {
+      "hex": "5C",
+      "color": "#5C5C5C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "C",
+        "5",
+        "C",
+        "5",
+        "C"
+      ]
+    },
+    {
+      "hex": "5D",
+      "color": "#5D5D5D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "D",
+        "5",
+        "D",
+        "5",
+        "D"
+      ]
+    },
+    {
+      "hex": "5E",
+      "color": "#5E5E5E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "E",
+        "5",
+        "E",
+        "5",
+        "E"
+      ]
+    },
+    {
+      "hex": "5F",
+      "color": "#5F5F5F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "F",
+        "5",
+        "F",
+        "5",
+        "F"
+      ]
+    },
+    {
+      "hex": "60",
+      "color": "#606060",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "606",
+        "060"
+      ]
+    },
+    {
+      "hex": "61",
+      "color": "#616161",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "616",
+        "161"
+      ]
+    },
+    {
+      "hex": "62",
+      "color": "#626262",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "626",
+        "262"
+      ]
+    },
+    {
+      "hex": "63",
+      "color": "#636363",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "636",
+        "363"
+      ]
+    },
+    {
+      "hex": "64",
+      "color": "#646464",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "646",
+        "464"
+      ]
+    },
+    {
+      "hex": "65",
+      "color": "#656565",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "656",
+        "565"
+      ]
+    },
+    {
+      "hex": "66",
+      "color": "#666666",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "666",
+        "666"
+      ]
+    },
+    {
+      "hex": "67",
+      "color": "#676767",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "676",
+        "767"
+      ]
+    },
+    {
+      "hex": "68",
+      "color": "#686868",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "686",
+        "868"
+      ]
+    },
+    {
+      "hex": "69",
+      "color": "#696969",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "696",
+        "969"
+      ]
+    },
+    {
+      "hex": "6A",
+      "color": "#6A6A6A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "A",
+        "6",
+        "A",
+        "6",
+        "A"
+      ]
+    },
+    {
+      "hex": "6B",
+      "color": "#6B6B6B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "B",
+        "6",
+        "B",
+        "6",
+        "B"
+      ]
+    },
+    {
+      "hex": "6C",
+      "color": "#6C6C6C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "C",
+        "6",
+        "C",
+        "6",
+        "C"
+      ]
+    },
+    {
+      "hex": "6D",
+      "color": "#6D6D6D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "D",
+        "6",
+        "D",
+        "6",
+        "D"
+      ]
+    },
+    {
+      "hex": "6E",
+      "color": "#6E6E6E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "E",
+        "6",
+        "E",
+        "6",
+        "E"
+      ]
+    },
+    {
+      "hex": "6F",
+      "color": "#6F6F6F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "F",
+        "6",
+        "F",
+        "6",
+        "F"
+      ]
+    },
+    {
+      "hex": "70",
+      "color": "#707070",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "707",
+        "070"
+      ]
+    },
+    {
+      "hex": "71",
+      "color": "#717171",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "717",
+        "171"
+      ]
+    },
+    {
+      "hex": "72",
+      "color": "#727272",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "727",
+        "272"
+      ]
+    },
+    {
+      "hex": "73",
+      "color": "#737373",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "737",
+        "373"
+      ]
+    },
+    {
+      "hex": "74",
+      "color": "#747474",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "747",
+        "474"
+      ]
+    },
+    {
+      "hex": "75",
+      "color": "#757575",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "757",
+        "575"
+      ]
+    },
+    {
+      "hex": "76",
+      "color": "#767676",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "767",
+        "676"
+      ]
+    },
+    {
+      "hex": "77",
+      "color": "#777777",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "777",
+        "777"
+      ]
+    },
+    {
+      "hex": "78",
+      "color": "#787878",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "787",
+        "878"
+      ]
+    },
+    {
+      "hex": "79",
+      "color": "#797979",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "797",
+        "979"
+      ]
+    },
+    {
+      "hex": "7A",
+      "color": "#7A7A7A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "A",
+        "7",
+        "A",
+        "7",
+        "A"
+      ]
+    },
+    {
+      "hex": "7B",
+      "color": "#7B7B7B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "B",
+        "7",
+        "B",
+        "7",
+        "B"
+      ]
+    },
+    {
+      "hex": "7C",
+      "color": "#7C7C7C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "C",
+        "7",
+        "C",
+        "7",
+        "C"
+      ]
+    },
+    {
+      "hex": "7D",
+      "color": "#7D7D7D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "D",
+        "7",
+        "D",
+        "7",
+        "D"
+      ]
+    },
+    {
+      "hex": "7E",
+      "color": "#7E7E7E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "E",
+        "7",
+        "E",
+        "7",
+        "E"
+      ]
+    },
+    {
+      "hex": "7F",
+      "color": "#7F7F7F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "F",
+        "7",
+        "F",
+        "7",
+        "F"
+      ]
+    },
+    {
+      "hex": "80",
+      "color": "#808080",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "808",
+        "080"
+      ]
+    },
+    {
+      "hex": "81",
+      "color": "#818181",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "818",
+        "181"
+      ]
+    },
+    {
+      "hex": "82",
+      "color": "#828282",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "828",
+        "282"
+      ]
+    },
+    {
+      "hex": "83",
+      "color": "#838383",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "838",
+        "383"
+      ]
+    },
+    {
+      "hex": "84",
+      "color": "#848484",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "848",
+        "484"
+      ]
+    },
+    {
+      "hex": "85",
+      "color": "#858585",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "858",
+        "585"
+      ]
+    },
+    {
+      "hex": "86",
+      "color": "#868686",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "868",
+        "686"
+      ]
+    },
+    {
+      "hex": "87",
+      "color": "#878787",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "878",
+        "787"
+      ]
+    },
+    {
+      "hex": "88",
+      "color": "#888888",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "888",
+        "888"
+      ]
+    },
+    {
+      "hex": "89",
+      "color": "#898989",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "898",
+        "989"
+      ]
+    },
+    {
+      "hex": "8A",
+      "color": "#8A8A8A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "A",
+        "8",
+        "A",
+        "8",
+        "A"
+      ]
+    },
+    {
+      "hex": "8B",
+      "color": "#8B8B8B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "B",
+        "8",
+        "B",
+        "8",
+        "B"
+      ]
+    },
+    {
+      "hex": "8C",
+      "color": "#8C8C8C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "C",
+        "8",
+        "C",
+        "8",
+        "C"
+      ]
+    },
+    {
+      "hex": "8D",
+      "color": "#8D8D8D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "D",
+        "8",
+        "D",
+        "8",
+        "D"
+      ]
+    },
+    {
+      "hex": "8E",
+      "color": "#8E8E8E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "E",
+        "8",
+        "E",
+        "8",
+        "E"
+      ]
+    },
+    {
+      "hex": "8F",
+      "color": "#8F8F8F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "F",
+        "8",
+        "F",
+        "8",
+        "F"
+      ]
+    },
+    {
+      "hex": "90",
+      "color": "#909090",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "909",
+        "090"
+      ]
+    },
+    {
+      "hex": "91",
+      "color": "#919191",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "919",
+        "191"
+      ]
+    },
+    {
+      "hex": "92",
+      "color": "#929292",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "929",
+        "292"
+      ]
+    },
+    {
+      "hex": "93",
+      "color": "#939393",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "939",
+        "393"
+      ]
+    },
+    {
+      "hex": "94",
+      "color": "#949494",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "949",
+        "494"
+      ]
+    },
+    {
+      "hex": "95",
+      "color": "#959595",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "959",
+        "595"
+      ]
+    },
+    {
+      "hex": "96",
+      "color": "#969696",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "969",
+        "696"
+      ]
+    },
+    {
+      "hex": "97",
+      "color": "#979797",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "979",
+        "797"
+      ]
+    },
+    {
+      "hex": "98",
+      "color": "#989898",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "989",
+        "898"
+      ]
+    },
+    {
+      "hex": "99",
+      "color": "#999999",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "999",
+        "999"
+      ]
+    },
+    {
+      "hex": "9A",
+      "color": "#9A9A9A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "A",
+        "9",
+        "A",
+        "9",
+        "A"
+      ]
+    },
+    {
+      "hex": "9B",
+      "color": "#9B9B9B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "B",
+        "9",
+        "B",
+        "9",
+        "B"
+      ]
+    },
+    {
+      "hex": "9C",
+      "color": "#9C9C9C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "C",
+        "9",
+        "C",
+        "9",
+        "C"
+      ]
+    },
+    {
+      "hex": "9D",
+      "color": "#9D9D9D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "D",
+        "9",
+        "D",
+        "9",
+        "D"
+      ]
+    },
+    {
+      "hex": "9E",
+      "color": "#9E9E9E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "E",
+        "9",
+        "E",
+        "9",
+        "E"
+      ]
+    },
+    {
+      "hex": "9F",
+      "color": "#9F9F9F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "F",
+        "9",
+        "F",
+        "9",
+        "F"
+      ]
+    },
+    {
+      "hex": "A0",
+      "color": "#A0A0A0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "0",
+        "A",
+        "0",
+        "A",
+        "0"
+      ]
+    },
+    {
+      "hex": "A1",
+      "color": "#A1A1A1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "1",
+        "A",
+        "1",
+        "A",
+        "1"
+      ]
+    },
+    {
+      "hex": "A2",
+      "color": "#A2A2A2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "2",
+        "A",
+        "2",
+        "A",
+        "2"
+      ]
+    },
+    {
+      "hex": "A3",
+      "color": "#A3A3A3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "3",
+        "A",
+        "3",
+        "A",
+        "3"
+      ]
+    },
+    {
+      "hex": "A4",
+      "color": "#A4A4A4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "4",
+        "A",
+        "4",
+        "A",
+        "4"
+      ]
+    },
+    {
+      "hex": "A5",
+      "color": "#A5A5A5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "5",
+        "A",
+        "5",
+        "A",
+        "5"
+      ]
+    },
+    {
+      "hex": "A6",
+      "color": "#A6A6A6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "6",
+        "A",
+        "6",
+        "A",
+        "6"
+      ]
+    },
+    {
+      "hex": "A7",
+      "color": "#A7A7A7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "7",
+        "A",
+        "7",
+        "A",
+        "7"
+      ]
+    },
+    {
+      "hex": "A8",
+      "color": "#A8A8A8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "8",
+        "A",
+        "8",
+        "A",
+        "8"
+      ]
+    },
+    {
+      "hex": "A9",
+      "color": "#A9A9A9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "9",
+        "A",
+        "9",
+        "A",
+        "9"
+      ]
+    },
+    {
+      "hex": "AA",
+      "color": "#AAAAAA",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "AAAA",
+        "AA"
+      ]
+    },
+    {
+      "hex": "AB",
+      "color": "#ABABAB",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "AB",
+        "AB",
+        "AB"
+      ]
+    },
+    {
+      "hex": "AC",
+      "color": "#ACACAC",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "AC",
+        "AC",
+        "AC"
+      ]
+    },
+    {
+      "hex": "AD",
+      "color": "#ADADAD",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "AD",
+        "AD",
+        "AD"
+      ]
+    },
+    {
+      "hex": "AE",
+      "color": "#AEAEAE",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "AE",
+        "AE",
+        "AE"
+      ]
+    },
+    {
+      "hex": "AF",
+      "color": "#AFAFAF",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "A",
+        "FA",
+        "FA",
+        "F"
+      ]
+    },
+    {
+      "hex": "B0",
+      "color": "#B0B0B0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "0",
+        "B",
+        "0",
+        "B",
+        "0"
+      ]
+    },
+    {
+      "hex": "B1",
+      "color": "#B1B1B1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "1",
+        "B",
+        "1",
+        "B",
+        "1"
+      ]
+    },
+    {
+      "hex": "B2",
+      "color": "#B2B2B2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "2",
+        "B",
+        "2",
+        "B",
+        "2"
+      ]
+    },
+    {
+      "hex": "B3",
+      "color": "#B3B3B3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "3",
+        "B",
+        "3",
+        "B",
+        "3"
+      ]
+    },
+    {
+      "hex": "B4",
+      "color": "#B4B4B4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "4",
+        "B",
+        "4",
+        "B",
+        "4"
+      ]
+    },
+    {
+      "hex": "B5",
+      "color": "#B5B5B5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "5",
+        "B",
+        "5",
+        "B",
+        "5"
+      ]
+    },
+    {
+      "hex": "B6",
+      "color": "#B6B6B6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "6",
+        "B",
+        "6",
+        "B",
+        "6"
+      ]
+    },
+    {
+      "hex": "B7",
+      "color": "#B7B7B7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "7",
+        "B",
+        "7",
+        "B",
+        "7"
+      ]
+    },
+    {
+      "hex": "B8",
+      "color": "#B8B8B8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "8",
+        "B",
+        "8",
+        "B",
+        "8"
+      ]
+    },
+    {
+      "hex": "B9",
+      "color": "#B9B9B9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "9",
+        "B",
+        "9",
+        "B",
+        "9"
+      ]
+    },
+    {
+      "hex": "BA",
+      "color": "#BABABA",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "BAB",
+        "ABA"
+      ]
+    },
+    {
+      "hex": "BB",
+      "color": "#BBBBBB",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "BBBB",
+        "BB"
+      ]
+    },
+    {
+      "hex": "BC",
+      "color": "#BCBCBC",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "BC",
+        "BC",
+        "BC"
+      ]
+    },
+    {
+      "hex": "BD",
+      "color": "#BDBDBD",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "B",
+        "DB",
+        "DB",
+        "D"
+      ]
+    },
+    {
+      "hex": "BE",
+      "color": "#BEBEBE",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "B",
+        "EB",
+        "EB",
+        "E"
+      ]
+    },
+    {
+      "hex": "BF",
+      "color": "#BFBFBF",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "B",
+        "FB",
+        "FB",
+        "F"
+      ]
+    },
+    {
+      "hex": "C0",
+      "color": "#C0C0C0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ]
+    },
+    {
+      "hex": "C1",
+      "color": "#C1C1C1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "1",
+        "C",
+        "1",
+        "C",
+        "1"
+      ]
+    },
+    {
+      "hex": "C2",
+      "color": "#C2C2C2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "2",
+        "C",
+        "2",
+        "C",
+        "2"
+      ]
+    },
+    {
+      "hex": "C3",
+      "color": "#C3C3C3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "3",
+        "C",
+        "3",
+        "C",
+        "3"
+      ]
+    },
+    {
+      "hex": "C4",
+      "color": "#C4C4C4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "4",
+        "C",
+        "4",
+        "C",
+        "4"
+      ]
+    },
+    {
+      "hex": "C5",
+      "color": "#C5C5C5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "5",
+        "C",
+        "5",
+        "C",
+        "5"
+      ]
+    },
+    {
+      "hex": "C6",
+      "color": "#C6C6C6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "6",
+        "C",
+        "6",
+        "C",
+        "6"
+      ]
+    },
+    {
+      "hex": "C7",
+      "color": "#C7C7C7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "7",
+        "C",
+        "7",
+        "C",
+        "7"
+      ]
+    },
+    {
+      "hex": "C8",
+      "color": "#C8C8C8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "8",
+        "C",
+        "8",
+        "C",
+        "8"
+      ]
+    },
+    {
+      "hex": "C9",
+      "color": "#C9C9C9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "9",
+        "C",
+        "9",
+        "C",
+        "9"
+      ]
+    },
+    {
+      "hex": "CA",
+      "color": "#CACACA",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "CAC",
+        "ACA"
+      ]
+    },
+    {
+      "hex": "CB",
+      "color": "#CBCBCB",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "CBC",
+        "BC",
+        "B"
+      ]
+    },
+    {
+      "hex": "CC",
+      "color": "#CCCCCC",
+      "token_count": 2,
+      "pieces": [
+        "#",
+        "CCCCCC"
+      ]
+    },
+    {
+      "hex": "CD",
+      "color": "#CDCDCD",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "CDC",
+        "DC",
+        "D"
+      ]
+    },
+    {
+      "hex": "CE",
+      "color": "#CECECE",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "CE",
+        "CE",
+        "CE"
+      ]
+    },
+    {
+      "hex": "CF",
+      "color": "#CFCFCF",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "C",
+        "FC",
+        "FC",
+        "F"
+      ]
+    },
+    {
+      "hex": "D0",
+      "color": "#D0D0D0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "0",
+        "D",
+        "0",
+        "D",
+        "0"
+      ]
+    },
+    {
+      "hex": "D1",
+      "color": "#D1D1D1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "1",
+        "D",
+        "1",
+        "D",
+        "1"
+      ]
+    },
+    {
+      "hex": "D2",
+      "color": "#D2D2D2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "2",
+        "D",
+        "2",
+        "D",
+        "2"
+      ]
+    },
+    {
+      "hex": "D3",
+      "color": "#D3D3D3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "3",
+        "D",
+        "3",
+        "D",
+        "3"
+      ]
+    },
+    {
+      "hex": "D4",
+      "color": "#D4D4D4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "4",
+        "D",
+        "4",
+        "D",
+        "4"
+      ]
+    },
+    {
+      "hex": "D5",
+      "color": "#D5D5D5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "5",
+        "D",
+        "5",
+        "D",
+        "5"
+      ]
+    },
+    {
+      "hex": "D6",
+      "color": "#D6D6D6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "6",
+        "D",
+        "6",
+        "D",
+        "6"
+      ]
+    },
+    {
+      "hex": "D7",
+      "color": "#D7D7D7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "7",
+        "D",
+        "7",
+        "D",
+        "7"
+      ]
+    },
+    {
+      "hex": "D8",
+      "color": "#D8D8D8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "8",
+        "D",
+        "8",
+        "D",
+        "8"
+      ]
+    },
+    {
+      "hex": "D9",
+      "color": "#D9D9D9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "9",
+        "D",
+        "9",
+        "D",
+        "9"
+      ]
+    },
+    {
+      "hex": "DA",
+      "color": "#DADADA",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "D",
+        "AD",
+        "ADA"
+      ]
+    },
+    {
+      "hex": "DB",
+      "color": "#DBDBDB",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "DB",
+        "DB",
+        "DB"
+      ]
+    },
+    {
+      "hex": "DC",
+      "color": "#DCDCDC",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "DC",
+        "DC",
+        "DC"
+      ]
+    },
+    {
+      "hex": "DD",
+      "color": "#DDDDDD",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "DD",
+        "DD",
+        "DD"
+      ]
+    },
+    {
+      "hex": "DE",
+      "color": "#DEDEDE",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "DE",
+        "DE",
+        "DE"
+      ]
+    },
+    {
+      "hex": "DF",
+      "color": "#DFDFDF",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "DF",
+        "DF",
+        "DF"
+      ]
+    },
+    {
+      "hex": "E0",
+      "color": "#E0E0E0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "0",
+        "E",
+        "0",
+        "E",
+        "0"
+      ]
+    },
+    {
+      "hex": "E1",
+      "color": "#E1E1E1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "1",
+        "E",
+        "1",
+        "E",
+        "1"
+      ]
+    },
+    {
+      "hex": "E2",
+      "color": "#E2E2E2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "2",
+        "E",
+        "2",
+        "E",
+        "2"
+      ]
+    },
+    {
+      "hex": "E3",
+      "color": "#E3E3E3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "3",
+        "E",
+        "3",
+        "E",
+        "3"
+      ]
+    },
+    {
+      "hex": "E4",
+      "color": "#E4E4E4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "4",
+        "E",
+        "4",
+        "E",
+        "4"
+      ]
+    },
+    {
+      "hex": "E5",
+      "color": "#E5E5E5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "5",
+        "E",
+        "5",
+        "E",
+        "5"
+      ]
+    },
+    {
+      "hex": "E6",
+      "color": "#E6E6E6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "6",
+        "E",
+        "6",
+        "E",
+        "6"
+      ]
+    },
+    {
+      "hex": "E7",
+      "color": "#E7E7E7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "7",
+        "E",
+        "7",
+        "E",
+        "7"
+      ]
+    },
+    {
+      "hex": "E8",
+      "color": "#E8E8E8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "8",
+        "E",
+        "8",
+        "E",
+        "8"
+      ]
+    },
+    {
+      "hex": "E9",
+      "color": "#E9E9E9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "9",
+        "E",
+        "9",
+        "E",
+        "9"
+      ]
+    },
+    {
+      "hex": "EA",
+      "color": "#EAEAEA",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "E",
+        "AE",
+        "AEA"
+      ]
+    },
+    {
+      "hex": "EB",
+      "color": "#EBEBEB",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "EB",
+        "EB",
+        "EB"
+      ]
+    },
+    {
+      "hex": "EC",
+      "color": "#ECECEC",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "E",
+        "CE",
+        "CE",
+        "C"
+      ]
+    },
+    {
+      "hex": "ED",
+      "color": "#EDEDED",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "E",
+        "DE",
+        "DED"
+      ]
+    },
+    {
+      "hex": "EE",
+      "color": "#EEEEEE",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "EEEE",
+        "EE"
+      ]
+    },
+    {
+      "hex": "EF",
+      "color": "#EFEFEF",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "E",
+        "FE",
+        "FE",
+        "F"
+      ]
+    },
+    {
+      "hex": "F0",
+      "color": "#F0F0F0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "0",
+        "F",
+        "0",
+        "F",
+        "0"
+      ]
+    },
+    {
+      "hex": "F1",
+      "color": "#F1F1F1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "1",
+        "F",
+        "1",
+        "F",
+        "1"
+      ]
+    },
+    {
+      "hex": "F2",
+      "color": "#F2F2F2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "2",
+        "F",
+        "2",
+        "F",
+        "2"
+      ]
+    },
+    {
+      "hex": "F3",
+      "color": "#F3F3F3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "3",
+        "F",
+        "3",
+        "F",
+        "3"
+      ]
+    },
+    {
+      "hex": "F4",
+      "color": "#F4F4F4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "4",
+        "F",
+        "4",
+        "F",
+        "4"
+      ]
+    },
+    {
+      "hex": "F5",
+      "color": "#F5F5F5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "5",
+        "F",
+        "5",
+        "F",
+        "5"
+      ]
+    },
+    {
+      "hex": "F6",
+      "color": "#F6F6F6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "6",
+        "F",
+        "6",
+        "F",
+        "6"
+      ]
+    },
+    {
+      "hex": "F7",
+      "color": "#F7F7F7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "7",
+        "F",
+        "7",
+        "F",
+        "7"
+      ]
+    },
+    {
+      "hex": "F8",
+      "color": "#F8F8F8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "8",
+        "F",
+        "8",
+        "F",
+        "8"
+      ]
+    },
+    {
+      "hex": "F9",
+      "color": "#F9F9F9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "9",
+        "F",
+        "9",
+        "F",
+        "9"
+      ]
+    },
+    {
+      "hex": "FA",
+      "color": "#FAFAFA",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "FA",
+        "FA",
+        "FA"
+      ]
+    },
+    {
+      "hex": "FB",
+      "color": "#FBFBFB",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "FB",
+        "FB",
+        "FB"
+      ]
+    },
+    {
+      "hex": "FC",
+      "color": "#FCFCFC",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "FC",
+        "FC",
+        "FC"
+      ]
+    },
+    {
+      "hex": "FD",
+      "color": "#FDFDFD",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "F",
+        "DF",
+        "DF",
+        "D"
+      ]
+    },
+    {
+      "hex": "FE",
+      "color": "#FEFEFE",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "FE",
+        "FE",
+        "FE"
+      ]
+    },
+    {
+      "hex": "FF",
+      "color": "#FFFFFF",
+      "token_count": 2,
+      "pieces": [
+        "#",
+        "FFFFFF"
+      ]
+    }
+  ],
+  "token_count_distribution": {
+    "3": 105,
+    "7": 120,
+    "4": 21,
+    "5": 8,
+    "2": 2
+  },
+  "spikes_6plus_tokens": [
+    {
+      "hex": "0A",
+      "color": "#0A0A0A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "A",
+        "0",
+        "A",
+        "0",
+        "A"
+      ]
+    },
+    {
+      "hex": "0B",
+      "color": "#0B0B0B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "B",
+        "0",
+        "B",
+        "0",
+        "B"
+      ]
+    },
+    {
+      "hex": "0C",
+      "color": "#0C0C0C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C"
+      ]
+    },
+    {
+      "hex": "0D",
+      "color": "#0D0D0D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "D",
+        "0",
+        "D",
+        "0",
+        "D"
+      ]
+    },
+    {
+      "hex": "0E",
+      "color": "#0E0E0E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "E",
+        "0",
+        "E",
+        "0",
+        "E"
+      ]
+    },
+    {
+      "hex": "0F",
+      "color": "#0F0F0F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "0",
+        "F",
+        "0",
+        "F",
+        "0",
+        "F"
+      ]
+    },
+    {
+      "hex": "1A",
+      "color": "#1A1A1A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "A",
+        "1",
+        "A",
+        "1",
+        "A"
+      ]
+    },
+    {
+      "hex": "1B",
+      "color": "#1B1B1B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "B",
+        "1",
+        "B",
+        "1",
+        "B"
+      ]
+    },
+    {
+      "hex": "1C",
+      "color": "#1C1C1C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "C",
+        "1",
+        "C",
+        "1",
+        "C"
+      ]
+    },
+    {
+      "hex": "1D",
+      "color": "#1D1D1D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "D",
+        "1",
+        "D",
+        "1",
+        "D"
+      ]
+    },
+    {
+      "hex": "1E",
+      "color": "#1E1E1E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "E",
+        "1",
+        "E",
+        "1",
+        "E"
+      ]
+    },
+    {
+      "hex": "1F",
+      "color": "#1F1F1F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "1",
+        "F",
+        "1",
+        "F",
+        "1",
+        "F"
+      ]
+    },
+    {
+      "hex": "2A",
+      "color": "#2A2A2A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "A",
+        "2",
+        "A",
+        "2",
+        "A"
+      ]
+    },
+    {
+      "hex": "2B",
+      "color": "#2B2B2B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "B",
+        "2",
+        "B",
+        "2",
+        "B"
+      ]
+    },
+    {
+      "hex": "2C",
+      "color": "#2C2C2C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "C",
+        "2",
+        "C",
+        "2",
+        "C"
+      ]
+    },
+    {
+      "hex": "2D",
+      "color": "#2D2D2D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "D",
+        "2",
+        "D",
+        "2",
+        "D"
+      ]
+    },
+    {
+      "hex": "2E",
+      "color": "#2E2E2E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "E",
+        "2",
+        "E",
+        "2",
+        "E"
+      ]
+    },
+    {
+      "hex": "2F",
+      "color": "#2F2F2F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "2",
+        "F",
+        "2",
+        "F",
+        "2",
+        "F"
+      ]
+    },
+    {
+      "hex": "3A",
+      "color": "#3A3A3A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "A",
+        "3",
+        "A",
+        "3",
+        "A"
+      ]
+    },
+    {
+      "hex": "3B",
+      "color": "#3B3B3B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "B",
+        "3",
+        "B",
+        "3",
+        "B"
+      ]
+    },
+    {
+      "hex": "3C",
+      "color": "#3C3C3C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "C",
+        "3",
+        "C",
+        "3",
+        "C"
+      ]
+    },
+    {
+      "hex": "3D",
+      "color": "#3D3D3D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "D",
+        "3",
+        "D",
+        "3",
+        "D"
+      ]
+    },
+    {
+      "hex": "3E",
+      "color": "#3E3E3E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "E",
+        "3",
+        "E",
+        "3",
+        "E"
+      ]
+    },
+    {
+      "hex": "3F",
+      "color": "#3F3F3F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "3",
+        "F",
+        "3",
+        "F",
+        "3",
+        "F"
+      ]
+    },
+    {
+      "hex": "4A",
+      "color": "#4A4A4A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "A",
+        "4",
+        "A",
+        "4",
+        "A"
+      ]
+    },
+    {
+      "hex": "4B",
+      "color": "#4B4B4B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "B",
+        "4",
+        "B",
+        "4",
+        "B"
+      ]
+    },
+    {
+      "hex": "4C",
+      "color": "#4C4C4C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "C",
+        "4",
+        "C",
+        "4",
+        "C"
+      ]
+    },
+    {
+      "hex": "4D",
+      "color": "#4D4D4D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "D",
+        "4",
+        "D",
+        "4",
+        "D"
+      ]
+    },
+    {
+      "hex": "4E",
+      "color": "#4E4E4E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "E",
+        "4",
+        "E",
+        "4",
+        "E"
+      ]
+    },
+    {
+      "hex": "4F",
+      "color": "#4F4F4F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "4",
+        "F",
+        "4",
+        "F",
+        "4",
+        "F"
+      ]
+    },
+    {
+      "hex": "5A",
+      "color": "#5A5A5A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "A",
+        "5",
+        "A",
+        "5",
+        "A"
+      ]
+    },
+    {
+      "hex": "5B",
+      "color": "#5B5B5B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "B",
+        "5",
+        "B",
+        "5",
+        "B"
+      ]
+    },
+    {
+      "hex": "5C",
+      "color": "#5C5C5C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "C",
+        "5",
+        "C",
+        "5",
+        "C"
+      ]
+    },
+    {
+      "hex": "5D",
+      "color": "#5D5D5D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "D",
+        "5",
+        "D",
+        "5",
+        "D"
+      ]
+    },
+    {
+      "hex": "5E",
+      "color": "#5E5E5E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "E",
+        "5",
+        "E",
+        "5",
+        "E"
+      ]
+    },
+    {
+      "hex": "5F",
+      "color": "#5F5F5F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "5",
+        "F",
+        "5",
+        "F",
+        "5",
+        "F"
+      ]
+    },
+    {
+      "hex": "6A",
+      "color": "#6A6A6A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "A",
+        "6",
+        "A",
+        "6",
+        "A"
+      ]
+    },
+    {
+      "hex": "6B",
+      "color": "#6B6B6B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "B",
+        "6",
+        "B",
+        "6",
+        "B"
+      ]
+    },
+    {
+      "hex": "6C",
+      "color": "#6C6C6C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "C",
+        "6",
+        "C",
+        "6",
+        "C"
+      ]
+    },
+    {
+      "hex": "6D",
+      "color": "#6D6D6D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "D",
+        "6",
+        "D",
+        "6",
+        "D"
+      ]
+    },
+    {
+      "hex": "6E",
+      "color": "#6E6E6E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "E",
+        "6",
+        "E",
+        "6",
+        "E"
+      ]
+    },
+    {
+      "hex": "6F",
+      "color": "#6F6F6F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "6",
+        "F",
+        "6",
+        "F",
+        "6",
+        "F"
+      ]
+    },
+    {
+      "hex": "7A",
+      "color": "#7A7A7A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "A",
+        "7",
+        "A",
+        "7",
+        "A"
+      ]
+    },
+    {
+      "hex": "7B",
+      "color": "#7B7B7B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "B",
+        "7",
+        "B",
+        "7",
+        "B"
+      ]
+    },
+    {
+      "hex": "7C",
+      "color": "#7C7C7C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "C",
+        "7",
+        "C",
+        "7",
+        "C"
+      ]
+    },
+    {
+      "hex": "7D",
+      "color": "#7D7D7D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "D",
+        "7",
+        "D",
+        "7",
+        "D"
+      ]
+    },
+    {
+      "hex": "7E",
+      "color": "#7E7E7E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "E",
+        "7",
+        "E",
+        "7",
+        "E"
+      ]
+    },
+    {
+      "hex": "7F",
+      "color": "#7F7F7F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "F",
+        "7",
+        "F",
+        "7",
+        "F"
+      ]
+    },
+    {
+      "hex": "8A",
+      "color": "#8A8A8A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "A",
+        "8",
+        "A",
+        "8",
+        "A"
+      ]
+    },
+    {
+      "hex": "8B",
+      "color": "#8B8B8B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "B",
+        "8",
+        "B",
+        "8",
+        "B"
+      ]
+    },
+    {
+      "hex": "8C",
+      "color": "#8C8C8C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "C",
+        "8",
+        "C",
+        "8",
+        "C"
+      ]
+    },
+    {
+      "hex": "8D",
+      "color": "#8D8D8D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "D",
+        "8",
+        "D",
+        "8",
+        "D"
+      ]
+    },
+    {
+      "hex": "8E",
+      "color": "#8E8E8E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "E",
+        "8",
+        "E",
+        "8",
+        "E"
+      ]
+    },
+    {
+      "hex": "8F",
+      "color": "#8F8F8F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "8",
+        "F",
+        "8",
+        "F",
+        "8",
+        "F"
+      ]
+    },
+    {
+      "hex": "9A",
+      "color": "#9A9A9A",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "A",
+        "9",
+        "A",
+        "9",
+        "A"
+      ]
+    },
+    {
+      "hex": "9B",
+      "color": "#9B9B9B",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "B",
+        "9",
+        "B",
+        "9",
+        "B"
+      ]
+    },
+    {
+      "hex": "9C",
+      "color": "#9C9C9C",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "C",
+        "9",
+        "C",
+        "9",
+        "C"
+      ]
+    },
+    {
+      "hex": "9D",
+      "color": "#9D9D9D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "D",
+        "9",
+        "D",
+        "9",
+        "D"
+      ]
+    },
+    {
+      "hex": "9E",
+      "color": "#9E9E9E",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "E",
+        "9",
+        "E",
+        "9",
+        "E"
+      ]
+    },
+    {
+      "hex": "9F",
+      "color": "#9F9F9F",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "9",
+        "F",
+        "9",
+        "F",
+        "9",
+        "F"
+      ]
+    },
+    {
+      "hex": "A0",
+      "color": "#A0A0A0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "0",
+        "A",
+        "0",
+        "A",
+        "0"
+      ]
+    },
+    {
+      "hex": "A1",
+      "color": "#A1A1A1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "1",
+        "A",
+        "1",
+        "A",
+        "1"
+      ]
+    },
+    {
+      "hex": "A2",
+      "color": "#A2A2A2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "2",
+        "A",
+        "2",
+        "A",
+        "2"
+      ]
+    },
+    {
+      "hex": "A3",
+      "color": "#A3A3A3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "3",
+        "A",
+        "3",
+        "A",
+        "3"
+      ]
+    },
+    {
+      "hex": "A4",
+      "color": "#A4A4A4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "4",
+        "A",
+        "4",
+        "A",
+        "4"
+      ]
+    },
+    {
+      "hex": "A5",
+      "color": "#A5A5A5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "5",
+        "A",
+        "5",
+        "A",
+        "5"
+      ]
+    },
+    {
+      "hex": "A6",
+      "color": "#A6A6A6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "6",
+        "A",
+        "6",
+        "A",
+        "6"
+      ]
+    },
+    {
+      "hex": "A7",
+      "color": "#A7A7A7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "7",
+        "A",
+        "7",
+        "A",
+        "7"
+      ]
+    },
+    {
+      "hex": "A8",
+      "color": "#A8A8A8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "8",
+        "A",
+        "8",
+        "A",
+        "8"
+      ]
+    },
+    {
+      "hex": "A9",
+      "color": "#A9A9A9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "9",
+        "A",
+        "9",
+        "A",
+        "9"
+      ]
+    },
+    {
+      "hex": "B0",
+      "color": "#B0B0B0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "0",
+        "B",
+        "0",
+        "B",
+        "0"
+      ]
+    },
+    {
+      "hex": "B1",
+      "color": "#B1B1B1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "1",
+        "B",
+        "1",
+        "B",
+        "1"
+      ]
+    },
+    {
+      "hex": "B2",
+      "color": "#B2B2B2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "2",
+        "B",
+        "2",
+        "B",
+        "2"
+      ]
+    },
+    {
+      "hex": "B3",
+      "color": "#B3B3B3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "3",
+        "B",
+        "3",
+        "B",
+        "3"
+      ]
+    },
+    {
+      "hex": "B4",
+      "color": "#B4B4B4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "4",
+        "B",
+        "4",
+        "B",
+        "4"
+      ]
+    },
+    {
+      "hex": "B5",
+      "color": "#B5B5B5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "5",
+        "B",
+        "5",
+        "B",
+        "5"
+      ]
+    },
+    {
+      "hex": "B6",
+      "color": "#B6B6B6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "6",
+        "B",
+        "6",
+        "B",
+        "6"
+      ]
+    },
+    {
+      "hex": "B7",
+      "color": "#B7B7B7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "7",
+        "B",
+        "7",
+        "B",
+        "7"
+      ]
+    },
+    {
+      "hex": "B8",
+      "color": "#B8B8B8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "8",
+        "B",
+        "8",
+        "B",
+        "8"
+      ]
+    },
+    {
+      "hex": "B9",
+      "color": "#B9B9B9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "B",
+        "9",
+        "B",
+        "9",
+        "B",
+        "9"
+      ]
+    },
+    {
+      "hex": "C0",
+      "color": "#C0C0C0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ]
+    },
+    {
+      "hex": "C1",
+      "color": "#C1C1C1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "1",
+        "C",
+        "1",
+        "C",
+        "1"
+      ]
+    },
+    {
+      "hex": "C2",
+      "color": "#C2C2C2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "2",
+        "C",
+        "2",
+        "C",
+        "2"
+      ]
+    },
+    {
+      "hex": "C3",
+      "color": "#C3C3C3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "3",
+        "C",
+        "3",
+        "C",
+        "3"
+      ]
+    },
+    {
+      "hex": "C4",
+      "color": "#C4C4C4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "4",
+        "C",
+        "4",
+        "C",
+        "4"
+      ]
+    },
+    {
+      "hex": "C5",
+      "color": "#C5C5C5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "5",
+        "C",
+        "5",
+        "C",
+        "5"
+      ]
+    },
+    {
+      "hex": "C6",
+      "color": "#C6C6C6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "6",
+        "C",
+        "6",
+        "C",
+        "6"
+      ]
+    },
+    {
+      "hex": "C7",
+      "color": "#C7C7C7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "7",
+        "C",
+        "7",
+        "C",
+        "7"
+      ]
+    },
+    {
+      "hex": "C8",
+      "color": "#C8C8C8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "8",
+        "C",
+        "8",
+        "C",
+        "8"
+      ]
+    },
+    {
+      "hex": "C9",
+      "color": "#C9C9C9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "9",
+        "C",
+        "9",
+        "C",
+        "9"
+      ]
+    },
+    {
+      "hex": "D0",
+      "color": "#D0D0D0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "0",
+        "D",
+        "0",
+        "D",
+        "0"
+      ]
+    },
+    {
+      "hex": "D1",
+      "color": "#D1D1D1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "1",
+        "D",
+        "1",
+        "D",
+        "1"
+      ]
+    },
+    {
+      "hex": "D2",
+      "color": "#D2D2D2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "2",
+        "D",
+        "2",
+        "D",
+        "2"
+      ]
+    },
+    {
+      "hex": "D3",
+      "color": "#D3D3D3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "3",
+        "D",
+        "3",
+        "D",
+        "3"
+      ]
+    },
+    {
+      "hex": "D4",
+      "color": "#D4D4D4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "4",
+        "D",
+        "4",
+        "D",
+        "4"
+      ]
+    },
+    {
+      "hex": "D5",
+      "color": "#D5D5D5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "5",
+        "D",
+        "5",
+        "D",
+        "5"
+      ]
+    },
+    {
+      "hex": "D6",
+      "color": "#D6D6D6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "6",
+        "D",
+        "6",
+        "D",
+        "6"
+      ]
+    },
+    {
+      "hex": "D7",
+      "color": "#D7D7D7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "7",
+        "D",
+        "7",
+        "D",
+        "7"
+      ]
+    },
+    {
+      "hex": "D8",
+      "color": "#D8D8D8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "8",
+        "D",
+        "8",
+        "D",
+        "8"
+      ]
+    },
+    {
+      "hex": "D9",
+      "color": "#D9D9D9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "D",
+        "9",
+        "D",
+        "9",
+        "D",
+        "9"
+      ]
+    },
+    {
+      "hex": "E0",
+      "color": "#E0E0E0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "0",
+        "E",
+        "0",
+        "E",
+        "0"
+      ]
+    },
+    {
+      "hex": "E1",
+      "color": "#E1E1E1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "1",
+        "E",
+        "1",
+        "E",
+        "1"
+      ]
+    },
+    {
+      "hex": "E2",
+      "color": "#E2E2E2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "2",
+        "E",
+        "2",
+        "E",
+        "2"
+      ]
+    },
+    {
+      "hex": "E3",
+      "color": "#E3E3E3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "3",
+        "E",
+        "3",
+        "E",
+        "3"
+      ]
+    },
+    {
+      "hex": "E4",
+      "color": "#E4E4E4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "4",
+        "E",
+        "4",
+        "E",
+        "4"
+      ]
+    },
+    {
+      "hex": "E5",
+      "color": "#E5E5E5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "5",
+        "E",
+        "5",
+        "E",
+        "5"
+      ]
+    },
+    {
+      "hex": "E6",
+      "color": "#E6E6E6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "6",
+        "E",
+        "6",
+        "E",
+        "6"
+      ]
+    },
+    {
+      "hex": "E7",
+      "color": "#E7E7E7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "7",
+        "E",
+        "7",
+        "E",
+        "7"
+      ]
+    },
+    {
+      "hex": "E8",
+      "color": "#E8E8E8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "8",
+        "E",
+        "8",
+        "E",
+        "8"
+      ]
+    },
+    {
+      "hex": "E9",
+      "color": "#E9E9E9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "E",
+        "9",
+        "E",
+        "9",
+        "E",
+        "9"
+      ]
+    },
+    {
+      "hex": "F0",
+      "color": "#F0F0F0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "0",
+        "F",
+        "0",
+        "F",
+        "0"
+      ]
+    },
+    {
+      "hex": "F1",
+      "color": "#F1F1F1",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "1",
+        "F",
+        "1",
+        "F",
+        "1"
+      ]
+    },
+    {
+      "hex": "F2",
+      "color": "#F2F2F2",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "2",
+        "F",
+        "2",
+        "F",
+        "2"
+      ]
+    },
+    {
+      "hex": "F3",
+      "color": "#F3F3F3",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "3",
+        "F",
+        "3",
+        "F",
+        "3"
+      ]
+    },
+    {
+      "hex": "F4",
+      "color": "#F4F4F4",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "4",
+        "F",
+        "4",
+        "F",
+        "4"
+      ]
+    },
+    {
+      "hex": "F5",
+      "color": "#F5F5F5",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "5",
+        "F",
+        "5",
+        "F",
+        "5"
+      ]
+    },
+    {
+      "hex": "F6",
+      "color": "#F6F6F6",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "6",
+        "F",
+        "6",
+        "F",
+        "6"
+      ]
+    },
+    {
+      "hex": "F7",
+      "color": "#F7F7F7",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "7",
+        "F",
+        "7",
+        "F",
+        "7"
+      ]
+    },
+    {
+      "hex": "F8",
+      "color": "#F8F8F8",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "8",
+        "F",
+        "8",
+        "F",
+        "8"
+      ]
+    },
+    {
+      "hex": "F9",
+      "color": "#F9F9F9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "F",
+        "9",
+        "F",
+        "9",
+        "F",
+        "9"
+      ]
+    }
+  ],
+  "same_char_avg_tokens": 2.9375,
+  "diff_char_avg_tokens": 5.15,
+  "real_hex_colors": [
+    {
+      "color": "#3A7BD5",
+      "token_count": 6,
+      "pieces": [
+        "#",
+        "3",
+        "A",
+        "7",
+        "BD",
+        "5"
+      ]
+    },
+    {
+      "color": "#FF5733",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "FF",
+        "573",
+        "3"
+      ]
+    },
+    {
+      "color": "#1ABC9C",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "1",
+        "ABC",
+        "9",
+        "C"
+      ]
+    },
+    {
+      "color": "#2ECC71",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "2",
+        "E",
+        "CC",
+        "71"
+      ]
+    },
+    {
+      "color": "#9B59B6",
+      "token_count": 6,
+      "pieces": [
+        "#",
+        "9",
+        "B",
+        "59",
+        "B",
+        "6"
+      ]
+    },
+    {
+      "color": "#E74C3C",
+      "token_count": 6,
+      "pieces": [
+        "#",
+        "E",
+        "74",
+        "C",
+        "3",
+        "C"
+      ]
+    },
+    {
+      "color": "#F39C12",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "F",
+        "39",
+        "C",
+        "12"
+      ]
+    },
+    {
+      "color": "#34495E",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "344",
+        "95",
+        "E"
+      ]
+    },
+    {
+      "color": "#16A085",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "16",
+        "A",
+        "085"
+      ]
+    },
+    {
+      "color": "#27AE60",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "27",
+        "AE",
+        "60"
+      ]
+    },
+    {
+      "color": "#2980B9",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "298",
+        "0",
+        "B",
+        "9"
+      ]
+    },
+    {
+      "color": "#8E44AD",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "8",
+        "E",
+        "44",
+        "AD"
+      ]
+    },
+    {
+      "color": "#C0392B",
+      "token_count": 5,
+      "pieces": [
+        "#",
+        "C",
+        "039",
+        "2",
+        "B"
+      ]
+    },
+    {
+      "color": "#D35400",
+      "token_count": 4,
+      "pieces": [
+        "#",
+        "D",
+        "354",
+        "00"
+      ]
+    },
+    {
+      "color": "#7F8C8D",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "7",
+        "F",
+        "8",
+        "C",
+        "8",
+        "D"
+      ]
+    },
+    {
+      "color": "#A9A9A9",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "A",
+        "9",
+        "A",
+        "9",
+        "A",
+        "9"
+      ]
+    },
+    {
+      "color": "#000000",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "000",
+        "000"
+      ]
+    },
+    {
+      "color": "#FFFFFF",
+      "token_count": 2,
+      "pieces": [
+        "#",
+        "FFFFFF"
+      ]
+    },
+    {
+      "color": "#808080",
+      "token_count": 3,
+      "pieces": [
+        "#",
+        "808",
+        "080"
+      ]
+    },
+    {
+      "color": "#C0C0C0",
+      "token_count": 7,
+      "pieces": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ]
+    }
+  ]
+}

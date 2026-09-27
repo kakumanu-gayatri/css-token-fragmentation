@@ -1,0 +1,1041 @@
+{
+  "tokenizers": [
+    "cl100k_base (GPT-4)",
+    "o200k_base (GPT-4o+)",
+    "Qwen2.5",
+    "DeepSeek-V3"
+  ],
+  "hex_pair_sweep": {
+    "cl100k_base (GPT-4)": {
+      "upper": {
+        "same_char_avg": 2.94,
+        "diff_char_avg": 5.15,
+        "pairs_at_7plus_tokens": 120
+      },
+      "lower": {
+        "same_char_avg": 2.94,
+        "diff_char_avg": 4.99,
+        "pairs_at_7plus_tokens": 100
+      }
+    },
+    "o200k_base (GPT-4o+)": {
+      "upper": {
+        "same_char_avg": 3,
+        "diff_char_avg": 5.14,
+        "pairs_at_7plus_tokens": 120
+      },
+      "lower": {
+        "same_char_avg": 2.94,
+        "diff_char_avg": 5.05,
+        "pairs_at_7plus_tokens": 110
+      }
+    },
+    "Qwen2.5": {
+      "upper": {
+        "same_char_avg": 5.44,
+        "diff_char_avg": 6.65,
+        "pairs_at_7plus_tokens": 220
+      },
+      "lower": {
+        "same_char_avg": 5.44,
+        "diff_char_avg": 6.49,
+        "pairs_at_7plus_tokens": 200
+      }
+    },
+    "DeepSeek-V3": {
+      "upper": {
+        "same_char_avg": 3.19,
+        "diff_char_avg": 5.17,
+        "pairs_at_7plus_tokens": 120
+      },
+      "lower": {
+        "same_char_avg": 3.06,
+        "diff_char_avg": 5.12,
+        "pairs_at_7plus_tokens": 120
+      }
+    }
+  },
+  "examples": {
+    "cl100k_base (GPT-4)": {
+      "#FFFFFF": [
+        "#",
+        "FFFFFF"
+      ],
+      "#C0C0C0": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ],
+      "#3A7BD5": [
+        "#",
+        "3",
+        "A",
+        "7",
+        "BD",
+        "5"
+      ],
+      "#c0c0c0": [
+        "#c",
+        "0",
+        "c",
+        "0",
+        "c",
+        "0"
+      ],
+      "#3a7bd5": [
+        "#",
+        "3",
+        "a",
+        "7",
+        "bd",
+        "5"
+      ]
+    },
+    "o200k_base (GPT-4o+)": {
+      "#FFFFFF": [
+        "#",
+        "FFFFFF"
+      ],
+      "#C0C0C0": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ],
+      "#3A7BD5": [
+        "#",
+        "3",
+        "A",
+        "7",
+        "BD",
+        "5"
+      ],
+      "#c0c0c0": [
+        "#",
+        "c",
+        "0",
+        "c",
+        "0",
+        "c",
+        "0"
+      ],
+      "#3a7bd5": [
+        "#",
+        "3",
+        "a",
+        "7",
+        "bd",
+        "5"
+      ]
+    },
+    "Qwen2.5": {
+      "#FFFFFF": [
+        "#",
+        "FFFFFF"
+      ],
+      "#C0C0C0": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ],
+      "#3A7BD5": [
+        "#",
+        "3",
+        "A",
+        "7",
+        "BD",
+        "5"
+      ],
+      "#c0c0c0": [
+        "#c",
+        "0",
+        "c",
+        "0",
+        "c",
+        "0"
+      ],
+      "#3a7bd5": [
+        "#",
+        "3",
+        "a",
+        "7",
+        "bd",
+        "5"
+      ]
+    },
+    "DeepSeek-V3": {
+      "#FFFFFF": [
+        "#",
+        "FFFFFF"
+      ],
+      "#C0C0C0": [
+        "#",
+        "C",
+        "0",
+        "C",
+        "0",
+        "C",
+        "0"
+      ],
+      "#3A7BD5": [
+        "#",
+        "3",
+        "A",
+        "7",
+        "BD",
+        "5"
+      ],
+      "#c0c0c0": [
+        "#",
+        "c",
+        "0",
+        "c",
+        "0",
+        "c",
+        "0"
+      ],
+      "#3a7bd5": [
+        "#",
+        "3",
+        "a",
+        "7",
+        "bd",
+        "5"
+      ]
+    }
+  },
+  "palette_sources": {
+    "Tailwind v3": "https://cdn.jsdelivr.net/npm/tailwindcss@3.4.17/lib/public/colors.js",
+    "Bootstrap 5.3": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/scss/_variables.scss",
+    "Open Color": "https://cdn.jsdelivr.net/npm/open-color@1.9.1/open-color.json"
+  },
+  "palette_colors": {
+    "Tailwind v3": [
+      "#000",
+      "#020617",
+      "#022c22",
+      "#0284c7",
+      "#030712",
+      "#0369a1",
+      "#042f2e",
+      "#047857",
+      "#052e16",
+      "#059669",
+      "#064e3b",
+      "#065f46",
+      "#06b6d4",
+      "#075985",
+      "#082f49",
+      "#083344",
+      "#0891b2",
+      "#09090b",
+      "#0a0a0a",
+      "#0c0a09",
+      "#0c4a6e",
+      "#0d9488",
+      "#0e7490",
+      "#0ea5e9",
+      "#0f172a",
+      "#0f766e",
+      "#10b981",
+      "#111827",
+      "#115e59",
+      "#134e4a",
+      "#14532d",
+      "#14b8a6",
+      "#155e75",
+      "#15803d",
+      "#164e63",
+      "#166534",
+      "#16a34a",
+      "#171717",
+      "#172554",
+      "#18181b",
+      "#1a2e05",
+      "#1c1917",
+      "#1d4ed8",
+      "#1e1b4b",
+      "#1e293b",
+      "#1e3a8a",
+      "#1e40af",
+      "#1f2937",
+      "#22c55e",
+      "#22d3ee",
+      "#2563eb",
+      "#262626",
+      "#27272a",
+      "#292524",
+      "#2dd4bf",
+      "#2e1065",
+      "#312e81",
+      "#334155",
+      "#34d399",
+      "#365314",
+      "#3730a3",
+      "#374151",
+      "#38bdf8",
+      "#3b0764",
+      "#3b82f6",
+      "#3f3f46",
+      "#3f6212",
+      "#404040",
+      "#422006",
+      "#431407",
+      "#4338ca",
+      "#44403c",
+      "#450a0a",
+      "#451a03",
+      "#475569",
+      "#4a044e",
+      "#4ade80",
+      "#4b5563",
+      "#4c0519",
+      "#4c1d95",
+      "#4d7c0f",
+      "#4f46e5",
+      "#500724",
+      "#525252",
+      "#52525b",
+      "#57534e",
+      "#581c87",
+      "#5b21b6",
+      "#5eead4",
+      "#60a5fa",
+      "#6366f1",
+      "#64748b",
+      "#65a30d",
+      "#67e8f9",
+      "#6b21a8",
+      "#6b7280",
+      "#6d28d9",
+      "#6ee7b7",
+      "#701a75",
+      "#713f12",
+      "#71717a",
+      "#737373",
+      "#78350f",
+      "#78716c",
+      "#7c2d12",
+      "#7c3aed",
+      "#7dd3fc",
+      "#7e22ce",
+      "#7f1d1d",
+      "#818cf8",
+      "#831843",
+      "#84cc16",
+      "#854d0e",
+      "#86198f",
+      "#86efac",
+      "#881337",
+      "#8b5cf6",
+      "#92400e",
+      "#9333ea",
+      "#93c5fd",
+      "#94a3b8",
+      "#991b1b",
+      "#99f6e4",
+      "#9a3412",
+      "#9ca3af",
+      "#9d174d",
+      "#9f1239",
+      "#a16207",
+      "#a1a1aa",
+      "#a21caf",
+      "#a3a3a3",
+      "#a3e635",
+      "#a5b4fc",
+      "#a5f3fc",
+      "#a78bfa",
+      "#a7f3d0",
+      "#a855f7",
+      "#a8a29e",
+      "#b45309",
+      "#b91c1c",
+      "#bae6fd",
+      "#bbf7d0",
+      "#be123c",
+      "#be185d",
+      "#bef264",
+      "#bfdbfe",
+      "#c026d3",
+      "#c084fc",
+      "#c2410c",
+      "#c4b5fd",
+      "#c7d2fe",
+      "#ca8a04",
+      "#cbd5e1",
+      "#ccfbf1",
+      "#cffafe",
+      "#d1d5db",
+      "#d1fae5",
+      "#d4d4d4",
+      "#d4d4d8",
+      "#d6d3d1",
+      "#d8b4fe",
+      "#d946ef",
+      "#d97706",
+      "#d9f99d",
+      "#db2777",
+      "#dbeafe",
+      "#dc2626",
+      "#dcfce7",
+      "#ddd6fe",
+      "#e0e7ff",
+      "#e0f2fe",
+      "#e11d48",
+      "#e2e8f0",
+      "#e4e4e7",
+      "#e5e5e5",
+      "#e5e7eb",
+      "#e7e5e4",
+      "#e879f9",
+      "#e9d5ff",
+      "#ea580c",
+      "#eab308",
+      "#ec4899",
+      "#ecfccb",
+      "#ecfdf5",
+      "#ecfeff",
+      "#ede9fe",
+      "#eef2ff",
+      "#ef4444",
+      "#eff6ff",
+      "#f0abfc",
+      "#f0f9ff",
+      "#f0fdf4",
+      "#f0fdfa",
+      "#f1f5f9",
+      "#f3e8ff",
+      "#f3f4f6",
+      "#f43f5e",
+      "#f472b6",
+      "#f4f4f5",
+      "#f59e0b",
+      "#f5d0fe",
+      "#f5f3ff",
+      "#f5f5f4",
+      "#f5f5f5",
+      "#f7fee7",
+      "#f87171",
+      "#f8fafc",
+      "#f97316",
+      "#f9a8d4",
+      "#f9fafb",
+      "#facc15",
+      "#fae8ff",
+      "#faf5ff",
+      "#fafaf9",
+      "#fafafa",
+      "#fb7185",
+      "#fb923c",
+      "#fbbf24",
+      "#fbcfe8",
+      "#fca5a5",
+      "#fcd34d",
+      "#fce7f3",
+      "#fda4af",
+      "#fdba74",
+      "#fde047",
+      "#fde68a",
+      "#fdf2f8",
+      "#fdf4ff",
+      "#fecaca",
+      "#fecdd3",
+      "#fed7aa",
+      "#fee2e2",
+      "#fef08a",
+      "#fef2f2",
+      "#fef3c7",
+      "#fef9c3",
+      "#fefce8",
+      "#ffe4e6",
+      "#ffedd5",
+      "#fff",
+      "#fff1f2",
+      "#fff7ed",
+      "#fffbeb"
+    ],
+    "Bootstrap 5.3": [
+      "#000",
+      "#0d6efd",
+      "#0dcaf0",
+      "#198754",
+      "#20c997",
+      "#212529",
+      "#343a40",
+      "#495057",
+      "#6610f2",
+      "#6c757d",
+      "#6f42c1",
+      "#adb5bd",
+      "#ced4da",
+      "#d63384",
+      "#dc3545",
+      "#dee2e6",
+      "#e9ecef",
+      "#f8f9fa",
+      "#fd7e14",
+      "#ffc107",
+      "#fff"
+    ],
+    "Open Color": [
+      "#000000",
+      "#087f5b",
+      "#099268",
+      "#0b7285",
+      "#0c8599",
+      "#0ca678",
+      "#1098ad",
+      "#12b886",
+      "#15aabf",
+      "#1864ab",
+      "#1971c2",
+      "#1c7ed6",
+      "#20c997",
+      "#212529",
+      "#228be6",
+      "#22b8cf",
+      "#2b8a3e",
+      "#2f9e44",
+      "#339af0",
+      "#343a40",
+      "#364fc7",
+      "#37b24d",
+      "#38d9a9",
+      "#3b5bdb",
+      "#3bc9db",
+      "#40c057",
+      "#4263eb",
+      "#495057",
+      "#4c6ef5",
+      "#4dabf7",
+      "#51cf66",
+      "#5c7cfa",
+      "#5c940d",
+      "#5f3dc4",
+      "#63e6be",
+      "#66a80f",
+      "#66d9e8",
+      "#6741d9",
+      "#69db7c",
+      "#7048e8",
+      "#748ffc",
+      "#74b816",
+      "#74c0fc",
+      "#7950f2",
+      "#82c91e",
+      "#845ef7",
+      "#862e9c",
+      "#868e96",
+      "#8ce99a",
+      "#91a7ff",
+      "#94d82d",
+      "#96f2d7",
+      "#9775fa",
+      "#99e9f2",
+      "#9c36b5",
+      "#a5d8ff",
+      "#a61e4d",
+      "#a9e34b",
+      "#adb5bd",
+      "#ae3ec9",
+      "#b197fc",
+      "#b2f2bb",
+      "#bac8ff",
+      "#be4bdb",
+      "#c0eb75",
+      "#c2255c",
+      "#c3fae8",
+      "#c5f6fa",
+      "#c92a2a",
+      "#cc5de8",
+      "#ced4da",
+      "#d0bfff",
+      "#d0ebff",
+      "#d3f9d8",
+      "#d6336c",
+      "#d8f5a2",
+      "#d9480f",
+      "#da77f2",
+      "#dbe4ff",
+      "#dee2e6",
+      "#e03131",
+      "#e3fafc",
+      "#e599f7",
+      "#e5dbff",
+      "#e64980",
+      "#e67700",
+      "#e6fcf5",
+      "#e7f5ff",
+      "#e8590c",
+      "#e9ecef",
+      "#e9fac8",
+      "#ebfbee",
+      "#edf2ff",
+      "#eebefa",
+      "#f03e3e",
+      "#f06595",
+      "#f08c00",
+      "#f1f3f5",
+      "#f3d9fa",
+      "#f3f0ff",
+      "#f4fce3",
+      "#f59f00",
+      "#f76707",
+      "#f783ac",
+      "#f8f0fc",
+      "#f8f9fa",
+      "#fa5252",
+      "#faa2c1",
+      "#fab005",
+      "#fcc2d7",
+      "#fcc419",
+      "#fd7e14",
+      "#ff6b6b",
+      "#ff8787",
+      "#ff922b",
+      "#ffa8a8",
+      "#ffa94d",
+      "#ffc078",
+      "#ffc9c9",
+      "#ffd43b",
+      "#ffd8a8",
+      "#ffdeeb",
+      "#ffe066",
+      "#ffe3e3",
+      "#ffe8cc",
+      "#ffec99",
+      "#fff0f6",
+      "#fff3bf",
+      "#fff4e6",
+      "#fff5f5",
+      "#fff9db",
+      "#ffffff"
+    ]
+  },
+  "palette_results": {
+    "Tailwind v3": {
+      "cl100k_base (GPT-4)": {
+        "as_written": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 4.77,
+          "pct_5plus_tokens": 56.8,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f9a8d4",
+            "#f5f5f5",
+            "#f5f5f4",
+            "#f4f4f5",
+            "#f3f4f6"
+          ]
+        },
+        "upper": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 4.88,
+          "pct_5plus_tokens": 61.3,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F9A8D4",
+            "#F5F5F5",
+            "#F5F5F4",
+            "#F4F4F5",
+            "#F3F4F6"
+          ]
+        }
+      },
+      "o200k_base (GPT-4o+)": {
+        "as_written": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 4.81,
+          "pct_5plus_tokens": 57.6,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f9a8d4",
+            "#f5f5f5",
+            "#f5f5f4",
+            "#f4f4f5",
+            "#f3f4f6"
+          ]
+        },
+        "upper": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 4.85,
+          "pct_5plus_tokens": 58.8,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F9A8D4",
+            "#F5F5F5",
+            "#F5F5F4",
+            "#F4F4F5",
+            "#F3F4F6"
+          ]
+        }
+      },
+      "Qwen2.5": {
+        "as_written": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 6.21,
+          "pct_5plus_tokens": 90.5,
+          "pct_2_or_fewer_tokens": 0.4,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f9a8d4",
+            "#f97316",
+            "#f87171",
+            "#f5f5f5",
+            "#f5f5f4"
+          ]
+        },
+        "upper": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 6.31,
+          "pct_5plus_tokens": 94.2,
+          "pct_2_or_fewer_tokens": 0.4,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F9A8D4",
+            "#F97316",
+            "#F87171",
+            "#F5F5F5",
+            "#F5F5F4"
+          ]
+        }
+      },
+      "DeepSeek-V3": {
+        "as_written": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 4.88,
+          "pct_5plus_tokens": 61.3,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f9a8d4",
+            "#f5f5f5",
+            "#f5f5f4",
+            "#f4f4f5",
+            "#f3f4f6"
+          ]
+        },
+        "upper": {
+          "n_colors": 243,
+          "avg_tokens_in_context": 4.91,
+          "pct_5plus_tokens": 63.4,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F9A8D4",
+            "#F5F5F5",
+            "#F5F5F4",
+            "#F4F4F5",
+            "#F3F4F6"
+          ]
+        }
+      }
+    },
+    "Bootstrap 5.3": {
+      "cl100k_base (GPT-4)": {
+        "as_written": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 4.14,
+          "pct_5plus_tokens": 42.9,
+          "pct_2_or_fewer_tokens": 9.5,
+          "max_tokens": 6,
+          "worst_5": [
+            "#f8f9fa",
+            "#6f42c1",
+            "#fd7e14",
+            "#e9ecef",
+            "#dee2e6"
+          ]
+        },
+        "upper": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 4.29,
+          "pct_5plus_tokens": 42.9,
+          "pct_2_or_fewer_tokens": 9.5,
+          "max_tokens": 6,
+          "worst_5": [
+            "#F8F9FA",
+            "#DEE2E6",
+            "#6F42C1",
+            "#0D6EFD",
+            "#FD7E14"
+          ]
+        }
+      },
+      "o200k_base (GPT-4o+)": {
+        "as_written": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 4.14,
+          "pct_5plus_tokens": 42.9,
+          "pct_2_or_fewer_tokens": 9.5,
+          "max_tokens": 6,
+          "worst_5": [
+            "#f8f9fa",
+            "#6f42c1",
+            "#fd7e14",
+            "#e9ecef",
+            "#dee2e6"
+          ]
+        },
+        "upper": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 4.19,
+          "pct_5plus_tokens": 42.9,
+          "pct_2_or_fewer_tokens": 9.5,
+          "max_tokens": 6,
+          "worst_5": [
+            "#F8F9FA",
+            "#6F42C1",
+            "#0D6EFD",
+            "#FD7E14",
+            "#E9ECEF"
+          ]
+        }
+      },
+      "Qwen2.5": {
+        "as_written": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 5.71,
+          "pct_5plus_tokens": 81.0,
+          "pct_2_or_fewer_tokens": 4.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#d63384",
+            "#6f42c1",
+            "#6c757d",
+            "#6610f2",
+            "#495057"
+          ]
+        },
+        "upper": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 5.86,
+          "pct_5plus_tokens": 81.0,
+          "pct_2_or_fewer_tokens": 4.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#D63384",
+            "#6F42C1",
+            "#6C757D",
+            "#6610F2",
+            "#495057"
+          ]
+        }
+      },
+      "DeepSeek-V3": {
+        "as_written": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 4.29,
+          "pct_5plus_tokens": 42.9,
+          "pct_2_or_fewer_tokens": 9.5,
+          "max_tokens": 6,
+          "worst_5": [
+            "#f8f9fa",
+            "#dee2e6",
+            "#6f42c1",
+            "#0d6efd",
+            "#fd7e14"
+          ]
+        },
+        "upper": {
+          "n_colors": 21,
+          "avg_tokens_in_context": 4.38,
+          "pct_5plus_tokens": 47.6,
+          "pct_2_or_fewer_tokens": 9.5,
+          "max_tokens": 6,
+          "worst_5": [
+            "#F8F9FA",
+            "#DEE2E6",
+            "#6F42C1",
+            "#0DCAF0",
+            "#0D6EFD"
+          ]
+        }
+      }
+    },
+    "Open Color": {
+      "cl100k_base (GPT-4)": {
+        "as_written": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 4.8,
+          "pct_5plus_tokens": 61.4,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f1f3f5",
+            "#d8f5a2",
+            "#d3f9d8",
+            "#2b8a3e",
+            "#ff6b6b"
+          ]
+        },
+        "upper": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 4.93,
+          "pct_5plus_tokens": 65.9,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F1F3F5",
+            "#D8F5A2",
+            "#D3F9D8",
+            "#2B8A3E",
+            "#FFD8A8"
+          ]
+        }
+      },
+      "o200k_base (GPT-4o+)": {
+        "as_written": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 4.81,
+          "pct_5plus_tokens": 62.9,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f1f3f5",
+            "#d8f5a2",
+            "#d3f9d8",
+            "#2b8a3e",
+            "#ff6b6b"
+          ]
+        },
+        "upper": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 4.82,
+          "pct_5plus_tokens": 62.9,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F1F3F5",
+            "#D8F5A2",
+            "#D3F9D8",
+            "#2B8A3E",
+            "#FF6B6B"
+          ]
+        }
+      },
+      "Qwen2.5": {
+        "as_written": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 5.95,
+          "pct_5plus_tokens": 90.9,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f76707",
+            "#f59f00",
+            "#f1f3f5",
+            "#f08c00",
+            "#f06595"
+          ]
+        },
+        "upper": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 6.08,
+          "pct_5plus_tokens": 93.2,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F76707",
+            "#F59F00",
+            "#F1F3F5",
+            "#F08C00",
+            "#F06595"
+          ]
+        }
+      },
+      "DeepSeek-V3": {
+        "as_written": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 4.92,
+          "pct_5plus_tokens": 65.2,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#f1f3f5",
+            "#d8f5a2",
+            "#d3f9d8",
+            "#2b8a3e",
+            "#ffd8a8"
+          ]
+        },
+        "upper": {
+          "n_colors": 132,
+          "avg_tokens_in_context": 4.96,
+          "pct_5plus_tokens": 67.4,
+          "pct_2_or_fewer_tokens": 0.8,
+          "max_tokens": 7,
+          "worst_5": [
+            "#F1F3F5",
+            "#D8F5A2",
+            "#D3F9D8",
+            "#2B8A3E",
+            "#FFE3E3"
+          ]
+        }
+      }
+    }
+  },
+  "rem_results": {
+    "cl100k_base (GPT-4)": {
+      "0.25rem": 5,
+      "0.5rem": 5,
+      "0.75rem": 5,
+      "1rem": 3,
+      "1.25rem": 5,
+      "1.5rem": 5,
+      "2rem": 3,
+      "2.5rem": 5,
+      "3rem": 3
+    },
+    "o200k_base (GPT-4o+)": {
+      "0.25rem": 5,
+      "0.5rem": 5,
+      "0.75rem": 5,
+      "1rem": 3,
+      "1.25rem": 5,
+      "1.5rem": 5,
+      "2rem": 3,
+      "2.5rem": 5,
+      "3rem": 3
+    },
+    "Qwen2.5": {
+      "0.25rem": 6,
+      "0.5rem": 5,
+      "0.75rem": 6,
+      "1rem": 3,
+      "1.25rem": 6,
+      "1.5rem": 5,
+      "2rem": 3,
+      "2.5rem": 5,
+      "3rem": 3
+    },
+    "DeepSeek-V3": {
+      "0.25rem": 5,
+      "0.5rem": 5,
+      "0.75rem": 5,
+      "1rem": 3,
+      "1.25rem": 5,
+      "1.5rem": 5,
+      "2rem": 3,
+      "2.5rem": 5,
+      "3rem": 3
+    }
+  }
+}
